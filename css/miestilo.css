@@ -1,0 +1,129 @@
+.container-fluid{
+	border:0 !important; 
+	margin:0 !important;
+	padding:0 !important;; 
+	font-size: 20px;
+	word-wrap: break-word;
+}
+
+*{
+	text-align: center;
+}
+
+#bienvenido{
+	width: 100%;
+	height: auto;	
+	padding-top: 10%;
+	padding-bottom: 10%;
+	position: center;
+	background: #212F3C;
+	overflow: auto;
+	margin: 0px !important;
+	color: #fff;
+	text-align: center;
+}
+
+.row{
+	width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+nav {
+	background: #21618C !important;
+	margin-bottom: 0px !important;
+}
+
+nav a{
+	color: #979A9A;
+	font-size: 20px;
+}
+
+p, button{
+	text-align: center;
+	position: center;
+	color: #000;
+}
+
+iframe {
+	height: 300px;
+}
+
+#juego, #video, .reinicio{
+	text-align: center;
+	position: relative;
+}
+
+h2{
+	color: #fff;
+}
+
+#video, #descarga{
+	background: #1A5276;
+}
+
+#juego{
+	padding: 10%;
+}
+
+#juego, p, footer{
+	background: #212F3C;
+	color: #fff;
+}
+
+.box{
+	border: 5px;
+	border-radius: 5px;
+	border-color: #fff;
+	border-style: double;
+	width: auto;
+	height: 50px;
+	font-size: 30px;
+}
+
+input{
+	color: #000;
+}
+
+.mio{
+	margin-left: 10px; 
+}
+
+.big{
+	font-size: 30px;
+	padding: 0px;
+}
+
+#jugadores{
+	border-style: double;
+	border-color: #fff;
+	border-width:5px;
+}
+
+#bienvenido img{
+	border-radius: 50%;
+	max-height: 100px;
+	position: relative;
+}
+
+h3{
+	margin: 0px;
+}
+
+#descarga{
+	padding: 10%;
+}
+
+hr{
+	padding: 1%;
+}
+
+
+footer{
+	padding: 10%;
+}
+
+p{
+	margin-bottom: 0px;
+}

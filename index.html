@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Universal App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/miestilo.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+	<link rel="icon" href="ico.png">
+</head>
+<body>
+	
+	 <nav id="nav" class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+			  </button>
+
+			  <a class="navbar-brand" href="index.html">Unicaribe</a>
+			  <!--<img class="img-responsive logo" src="img/logo.png">-->
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav visible-desktop navbar-right">
+			    <li><a class="page-scroll"  href="#bienvenido">Wellcome</a></li>
+			    <li><a class="page-scroll"  href="#video">Video</a></li>
+			    <li><a class="page-scroll"  href="#juego">Game - Example</a></li>
+			    <li><a class="page-scroll"  href="#descarga">Download</a></li>
+			  </ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<div class="container-fluid">
+		<section id="bienvenido" class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h1>Wellcome</h1>
+				<h2>This is an example of an Universal (Hybrid) App</h2>
+				<div class="row">
+					<img class="responsive" src="img/chris.jpg">			
+					<img class="responsive" src="img/ricardo.jpg">
+				</div>
+				<br>
+				<button>
+					<a href="#juego">Let's Start </a>
+				</button>
+			</div>
+		</section>
+		<section id="video" class="row">
+			<div class="col-md-6 col-md-offset-3">
+				<h2>Video Explanation</h2>
+				<br>
+				<iframe src="https://publish.animatron.io/072a305bc6e7ef1fdd5c213c?w=640&h=360&a=0&r=1&c=0" width="auto" height="450" frameborder="0"></iframe>
+			</div>
+		</section>
+		<section id="juego" class="row center-md">
+			<div id="ppt" style="display: none" class="col-md-6 col-md-offset-3">
+				<div class="box" id="piedra">Rock</div>
+				<div class="box" id="papel">Paper</div>
+				<div class="box" id="tijera">Sissors</div>
+			</div>
+			<div id="participantes" class="col-md-6 ocultar">
+				<h1>Add players</h1>
+				<form action="" id="formPart">
+					<input type="text" id="addpart" />
+					<a href=""><button type="submit">Save</button></a>
+				</form>
+			</div>
+			<br>
+			<div class="col-md-6 ocultar">
+					<ul id="jugadores">
+					</ul>
+					<button id="inicio"> Start Game</button>
+			</div>
+			<br>
+		</section>
+		<section id="descarga">
+			<a href="https://goo.gl/jRszb3"><img class="responsive" src="img/qr.png"></a>
+			<hr>
+			<h3>Try it yourself - Download Now</h3>
+		</section>
+		<footer>
+			<p>All Rights Reserved (C)</p>
+		</footer>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/mijs.js"></script>
+</body>
+</html>
